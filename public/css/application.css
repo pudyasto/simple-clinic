@@ -1,0 +1,44 @@
+/**
+Datatable style 
+*/
+table {
+    width: 100% !important;
+}
+
+.table-lg thead th, .table-lg thead td{
+    font-size: 1.2em;
+}
+
+.table-lg tbody th, .table-lg tbody td{
+    font-size: 1.1em;
+}
+
+td.details-control {
+    background: url('../css/datatable/details_open.png') no-repeat center center !important;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../css/datatable/details_close.png') no-repeat center center !important;
+}
+
+tfoot {
+    display: table-header-group;
+}
+
+.dataTables_length {
+    margin-bottom: 20px !important;
+}
+
+.dataTables_length select {
+    margin: 0 10px 0 0 !important; 
+}
+
+.dataTables_wrapper {
+    padding: 0 1px;
+    width: 100%;
+}
+
+
+.select2-container .select2-selection--single {
+    border-color: #ced4da;
+}
