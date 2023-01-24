@@ -17,7 +17,8 @@ pencatatan rekam medis pasien, pemeberian obat dan pembayaran di kasir.
 ### Cara Setup Aplikasi ###
 
 * Import database/dump.sql ke server mysql
-* configurasi file .env
+* Configurasi file .env
+* Jalankan composer update
 * Gunakan VirtualHost dan arahkan ke folder public/ , atau gunakan perintah php artisan serve
 * Jalankan Aplikasi
 
